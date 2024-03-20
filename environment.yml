@@ -1,0 +1,20 @@
+name: tutorial
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - jupyter
+  - pip
+  - nb_conda
+  - ipykernel
+  - pip:
+    - numpy==1.19.5
+    - fairlearn
+    - mlxtend
+    - openml
+    - jmetalpy
+    - git+https://github.com/jundongl/scikit-feature
+    - RISE
+    - tabulate
+    - statsmodels
