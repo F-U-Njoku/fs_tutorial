@@ -37,8 +37,8 @@ If you have not installed Anaconda and prefer to create a virtual environment wi
 #### Step 3: Activate the virtual environment
 - ```source tutorial/bin/activate```
 #### Step 4: Install dependencies
-- ```pip install -r venv_requirements2.txt```
-- 
+- ```pip install -r venv_requirements.txt```
+  
 This environment has everything needed to execute the notebook. Launch the EDBT Tutorial.ipynb notebook from this environment.
 #### Step 5: Deactivate the environment
 
@@ -47,7 +47,7 @@ To exit the environment, deactivate it using the command below.
 
 #### Step 4: Delete the environment
 Delete the environment and uninstall all dependencies using the command below.
-- ``` pip uninstall -r requirements2.txt -y ```
+- ``` pip uninstall -r venv_requirements.txt -y ```
 - ``` rm -rf tutorial/ ``` 
 ## Conclusion
 The setup of the virtual environment needs to be done once, after which it can be activated and deactivated as needed.
